@@ -52,7 +52,7 @@ const App = () => {
           </InputGroup>
         </Col>
         <Col xs={12} md={8}>
-          <Tweets tweets={tweets} />
+          <Tweets tweets={visible} />
         </Col>
       </Row>
     </Container>
